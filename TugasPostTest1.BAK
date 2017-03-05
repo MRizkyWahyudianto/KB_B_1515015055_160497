@@ -1,0 +1,17 @@
+predicates %predicates adalah nama simbolikuntuk relasi
+  pekerjaan(symbol,symbol) - nondeterm (o,i), nondeterm (i,i)
+
+clauses
+%clauses digunakan untuk mendefinisikan predikat
+  pekerjaan(kiwa,gubernur).
+  pekerjaan(rizky,rt).
+  pekerjaan(wahyu,lurah).
+  pekerjaan(kiki,lurah).
+  pekerjaan(reza,walikota).
+  pekerjaan(tarik,gubernur).
+  pekerjaan(eza,gubernur).
+ 
+
+goal
+  pekerjaan(Person1,gubernur),
+  pekerjaan(Person,walikota).
