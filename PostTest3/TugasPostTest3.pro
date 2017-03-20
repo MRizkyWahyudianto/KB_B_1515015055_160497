@@ -2,7 +2,7 @@ DOMAINS
 yes = symbol
 jum = long
 
-PREDICATES %predicates adalah nama simbolikuntuk relasi 
+PREDICATES %predicates adalah nama simbolik untuk relasi 
 nondeterm kelompok(yes,yes,jum)
 nondeterm seluruhnya(yes,yes)
 nondeterm samarinda(yes,yes)
@@ -11,7 +11,6 @@ nondeterm kotabangun(yes,yes)
 nondeterm kegiatan(yes,yes)
 
 CLAUSES %clauses digunakan untuk mendefinisikan predikat
-%pada clauses korban ini saya menggunakan fakta seorang korban dengan profesinya , contohnya tukimin yang berprofesi sebagai pelajar dan berumur 15 tahun.
 kelompok(fkti_A_2015,mahasiswa,50). 
 kelompok(fkti_B_2015,mahasiswa,45).
 kelompok(fkti_C_2015,mahasiswa,48).
@@ -21,7 +20,6 @@ kelompok(telkom_B,perusahaan,37).
 kelompok(telkomsel,provider,25).
 kelompok(indosat,provider,79).
 
-%pada fakta berikutnya merupakan tempat kejadian yang mana terdapat tempat kejadian pastinya, dan hari kejadiannya 
 samarinda(sempaja,senin).
 samarinda(bengkuring,selasa).
 samarinda(juanda,selasa).
@@ -36,9 +34,7 @@ seluruhnya(NamaLokasi,Hari):-
 samarinda(NamaLokasi,Hari);
 kotabangun(NamaLokasi,Hari);
 tarakan(NamaLokasi,Hari).
-
-
-%yang selanjutnya adalah kasus yang terjadi seperti pembunuhan dan lain-lain serta pelaku dan bukti yang di dapat di tempat kejadian 
+ 
 kegiatan(rizky,pengaruh_Hoax).
 kegiatan(vita,pengenalan_internet).
 kegiatan(vandt,memperluas_jaringan).

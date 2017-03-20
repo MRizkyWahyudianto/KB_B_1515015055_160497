@@ -48,7 +48,7 @@ GOAL %goal adalah tempat pernyataan diberikan atau meminta prolog untuk mencapai
 write("~~~~~~~~~~KEGIATAN KOMPUTER MASYARAKAT~~~~~~~~~~"),nl,
 seluruhnya(NamaLokasi,Hari),
 Hari=senin,nl,
-kelompok(Kelompok,Profesi,Peserta"orang"),
+kelompok(Kelompok,Profesi,Peserta),
 Kelompok=fkti_B_2015,
 kegiatan(Ketua_kegiatan,Kegiatan),
 Kegiatan=memperluas_jaringan.
